@@ -1,0 +1,45 @@
+body{
+    background-color: #00FA9A;
+    font-family: Comic Sans MS;
+    vertical-align: middle;
+    text-align: center;
+}
+
+li{
+    flex-wrap: wrap;
+    width: 100%;
+    border-bottom: 1px solid black ;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+}
+
+textarea{
+    resize: none;
+    font-size: 16px;
+    margin-right: 1%;
+}
+
+.main-block{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 2% 2% 2% ;
+    background-color: white;
+    border: 5px solid;
+    border-color: #0bda51;
+    width: 40%;
+    text-align: center;
+}
+
+.list-box{
+    font-size: 24px;
+    padding: 1% 1% 1% 1% ;
+    border: 3px groove  #54ff9f;
+    text-align: left;
+}
+
+.interaction-block{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50px 40px;
+    padding: 1% 1% 1% 1%;
+}
